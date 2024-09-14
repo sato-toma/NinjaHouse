@@ -1,7 +1,7 @@
 # NinjaHouse
 
 # Requirement
-- Unity
+## Unity
   - Unity アカウントを作る
     - Unity公式サイトにて[アカウントを作成](https://unity.com/ja)し、Unity IDを取得する
   - Unity Hubを導入する
@@ -24,8 +24,9 @@
         - ドキュメント
           - Documentation
 
-# Environment building
-## Tree when cloned
+# Environment
+## Repository
+- クローン時のツリー
 <pre>
     .
     ├── NinjaHouse
@@ -36,7 +37,7 @@
             └── README.md
 </pre>
 
-## Tree when ClusterCreatorKitTemplate is deployed
+## ClusterCreatorKitTemplate Setup
 - ClusterCreatorKitTemplate
   - ClusterCreatorKitTemplateを[ダウンロード](https://bit.ly/creator-kit-template)する
   - ClusterCreatorKitTemplateをNinjaHouseにコピペする
@@ -57,6 +58,11 @@
       └── README.md
     └── .gitignore
 </pre>
+
+# Development
+## Opening the Unity Project
+- Unity Hubから[プロジェクト]タブを開き、[開く]>[ディスクから加える]で`.\NinjaHouse`までのパスを指定する
+- Unity Hubのプロジェクト一覧からNinjaHouseをクリックする
 
 # Link
 - [Cluster Creator Kit ドキュメント]( https://docs.cluster.mu/creatorkit/)
