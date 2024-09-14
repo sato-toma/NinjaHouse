@@ -23,6 +23,9 @@
           - 日本語
         - ドキュメント
           - Documentation
+## Cluster
+  - Cluster アカウントを作る
+  - Cluster APIアクセストークンを[取得](https://cluster.mu/account/tokens)する
 
 # Environment
 ## Repository
@@ -64,5 +67,8 @@
 - Unity Hubから[プロジェクト]タブを開き、[開く]>[ディスクから加える]で`.\NinjaHouse`までのパスを指定する
 - Unity Hubのプロジェクト一覧からNinjaHouseをクリックする
 
+## World Upload
+- Unityで[Cluster]>[ワールドアップロード]を行う
 # Link
 - [Cluster Creator Kit ドキュメント]( https://docs.cluster.mu/creatorkit/)
+- discord: [Cluster Creator Community](https://discord.gg/AfwsEEX)
