@@ -36,3 +36,6 @@ https://creator.cluster.mu/2023/10/30/beta_avataranimation/
 
 VRワールドをつくるためのプラットフォームでの利用 [3/3] ｜各VRプラットフォームでのワールドの作成
 https://www.mlit.go.jp/plateau/learning/tpc13-3/#p13_2
+
+Scriptable Itemでギミックを動かそう
+https://creator.cluster.mu/2022/10/19/scriptableitem/
