@@ -361,9 +361,95 @@ Transform:
   - {fileID: 177948375}
   - {fileID: 1239411590}
   - {fileID: 638197219}
+  - {fileID: 1194004884}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1194004883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 765518248}
+    m_Modifications:
+    - target: {fileID: 700205760905776036, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_Name
+      value: BGM
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205762101666157, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_Text
+      value: "BGM\uFF1ABGMer\r\nhttp://bgmer.net\nhttps://bgmer.net/music/130"
+      objectReference: {fileID: 0}
+    - target: {fileID: 700205762610372254, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fb3822907ad1a5843af0f1fd102f77d1, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cee0408e3fc07974b8cadec2d4ca7b6a, type: 3}
+--- !u!4 &1194004884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 700205760905776043, guid: cee0408e3fc07974b8cadec2d4ca7b6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1194004883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1239411589
 PrefabInstance:
   m_ObjectHideFlags: 0
