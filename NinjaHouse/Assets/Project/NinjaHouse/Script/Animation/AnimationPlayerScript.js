@@ -78,6 +78,7 @@ _.onButton(2, (isDown) => {
         _.log(`onButton motionNo: ${motionNo}`);
     }
 });
+
 _.onButton(3, (isDown) => {
     if (isDown) {
         const isCurrentPlayingMotion = isPlayingMotion;
