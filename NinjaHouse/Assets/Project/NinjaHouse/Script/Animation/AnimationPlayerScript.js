@@ -2,15 +2,39 @@ let targetItem = null;
 let motionTime = 0;
 let isPlayingMotion = false;
 let motionNo = 0;
-
 const motions = [
     _.humanoidAnimation("Animation0"),
     _.humanoidAnimation("Animation1"),
     _.humanoidAnimation("Animation2"),
     _.humanoidAnimation("Animation3"),
     _.humanoidAnimation("Animation4"),
+    _.humanoidAnimation("Animation5"),
+    _.humanoidAnimation("Animation6"),
+    _.humanoidAnimation("Animation7"),
+    _.humanoidAnimation("Animation8"),
+    _.humanoidAnimation("Animation9"),
 ]
 const motionSize = motions.length;
+
+const controls = [
+    _.iconAsset("Control0"),
+    _.iconAsset("Control1"),
+]
+const controlSize = controls.length;
+
+
+const modes = [
+    _.iconAsset("Mode0"),
+    _.iconAsset("Mode1"),
+    _.iconAsset("Mode2"),
+    _.iconAsset("Mode3"),
+    _.iconAsset("Mode4"),
+    _.iconAsset("Mode5"),
+    _.iconAsset("Mode6"),
+    _.iconAsset("Mode7"),
+    _.iconAsset("Mode8"),
+    _.iconAsset("Mode9"),
+]
 
 // 値がある範囲に収まるようにする
 const clamp = (x, min, max) => {
@@ -63,11 +87,12 @@ const playMotion = (animation, time) => {
     return continuePlaying;
 };
 
-_.onStart(() => {
-    _.showButton(2, _.iconAsset(""));
-    _.showButton(3, _.iconAsset(""));
-    targetItem = _.sourceItemId;
-});
+_.showButton(2, modes[0]);
+_.showButton(3, controls[0]);
+targetItem = _.sourceItemId;
+// _.onStart(() => {
+
+// });
 
 _.onButton(2, (isDown) => {
     if (isDown) {
@@ -75,6 +100,7 @@ _.onButton(2, (isDown) => {
         if (motionNo >= motionSize) {
             motionNo = 0;
         }
+        // _.showButton(2, modes[motionNo]);
         _.log(`onButton motionNo: ${motionNo}`);
     }
 });
@@ -91,6 +117,8 @@ _.onButton(3, (isDown) => {
         }
 
         isPlayingMotion = !isCurrentPlayingMotion;
+
+        // _.showButton(3, controls[isPlayingMotion ? 1 : 0]);
     }
     _.log(`onButton isPlayingMotion: ${isPlayingMotion}`);
 });
@@ -98,10 +126,11 @@ _.onButton(3, (isDown) => {
 _.onFrame(deltaTime => {
     // モーション再生
     if (isPlayingMotion) {
-        _.log(`onFrame motionNo: ${motionNo}`);
+        // _.log(`onFrame motionNo: ${motionNo}`);
 
         motionTime += deltaTime;
         const motion = motions[motionNo];
         isPlayingMotion = playMotion(motion, motionTime);
     }
 });
+

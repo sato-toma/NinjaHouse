@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261755921593601114}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 3183732605713112347}
   - component: {fileID: 3183732605713112348}
   - component: {fileID: 6040851871310500115}
+  - component: {fileID: 21191274}
   m_Layer: 0
   m_Name: 02AnimationItem
   m_TagString: Untagged
@@ -140,7 +141,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3183732605713112350}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -162,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 15333357729406332244
+    value: 2072269987971663400
   itemName: 02AnimationItem
   size: {x: 1, y: 1, z: 1}
 --- !u!114 &3183732605713112344
@@ -209,30 +210,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   humanoidAnimations:
   - id: Animation0
-    animation: {fileID: -203655887218126122, guid: 1d2c63818e7df404a9b4795f9ad91776,
+    animation: {fileID: -203655887218126122, guid: dc633db41d73abd4db1bd2c8009978cc,
       type: 3}
-    humanoidAnimation: {fileID: 11400000, guid: 8a206ddc4e1fd6644aeae26ad98168d3,
-      type: 2}
+    humanoidAnimation: {fileID: 0}
   - id: Animation1
-    animation: {fileID: -203655887218126122, guid: 1d2c63818e7df404a9b4795f9ad91776,
+    animation: {fileID: -203655887218126122, guid: f52a5456ddaaaa643ac34def39f4d7d5,
       type: 3}
-    humanoidAnimation: {fileID: 11400000, guid: 49ec5d3266015e54ba9814b038e0e7ce,
-      type: 2}
+    humanoidAnimation: {fileID: 0}
   - id: Animation2
-    animation: {fileID: -203655887218126122, guid: 1d2c63818e7df404a9b4795f9ad91776,
+    animation: {fileID: -203655887218126122, guid: f395ae0b31b4ca742a2f98ee546093bb,
       type: 3}
-    humanoidAnimation: {fileID: 11400000, guid: bc0fc7051d9fbf94b8790ca0899063d0,
-      type: 2}
+    humanoidAnimation: {fileID: 0}
   - id: Animation3
-    animation: {fileID: -203655887218126122, guid: 1d2c63818e7df404a9b4795f9ad91776,
+    animation: {fileID: -203655887218126122, guid: cc9f2947c46d1fc45aca6cfe8c8d5846,
       type: 3}
-    humanoidAnimation: {fileID: 11400000, guid: 0994cfeed9123c644a6e665ffecf7775,
-      type: 2}
+    humanoidAnimation: {fileID: 0}
   - id: Animation4
-    animation: {fileID: -203655887218126122, guid: 1d2c63818e7df404a9b4795f9ad91776,
+    animation: {fileID: -203655887218126122, guid: 676a70d6c722c10439d71214fc31df85,
       type: 3}
-    humanoidAnimation: {fileID: 11400000, guid: b085ddd53546aef4fb3ae9e5a7809e46,
-      type: 2}
+    humanoidAnimation: {fileID: 0}
+  - id: Animation5
+    animation: {fileID: -203655887218126122, guid: 01f60eea6e1d3e641885a64ed7741fb6,
+      type: 3}
+    humanoidAnimation: {fileID: 0}
+  - id: Animation6
+    animation: {fileID: -203655887218126122, guid: 76dad4ab37b7cde4da15aa9831169b99,
+      type: 3}
+    humanoidAnimation: {fileID: 0}
+  - id: Animation7
+    animation: {fileID: -203655887218126122, guid: 30e0957049bac9846ad4e8fedc054d6e,
+      type: 3}
+    humanoidAnimation: {fileID: 0}
+  - id: Animation8
+    animation: {fileID: -203655887218126122, guid: 1683b394cb7fb1642a95ed8d37978163,
+      type: 3}
+    humanoidAnimation: {fileID: 0}
+  - id: Animation9
+    animation: {fileID: -203655887218126122, guid: ea64176c65df8b04c8bf34a3eedb50df,
+      type: 3}
+    humanoidAnimation: {fileID: 0}
 --- !u!54 &3183732605713112347
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -279,3 +295,40 @@ MonoBehaviour:
   - id: Sound
     audioClip: {fileID: 8300000, guid: 3c2a782506d293747b0302adf58d8e9d, type: 3}
     loop: 0
+--- !u!114 &21191274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3183732605713112350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d439cdf83dc3d4eb5178b5e57764dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconAssets:
+  - id: Mode0
+    image: {fileID: 2800000, guid: ff5f99b27d2fa084a835cb89df544de9, type: 3}
+  - id: Mode1
+    image: {fileID: 2800000, guid: a94d1699c5cebd246b2594223c35a8e9, type: 3}
+  - id: Mode2
+    image: {fileID: 2800000, guid: 7cc742b3507b9aa4b9ea1a3bc0db7ae8, type: 3}
+  - id: Mode3
+    image: {fileID: 2800000, guid: b1aa5afd4f7dffb47b30a37244e85aa2, type: 3}
+  - id: Mode4
+    image: {fileID: 2800000, guid: 78fcc31f25b27d94c8676e1780233c1b, type: 3}
+  - id: Mode5
+    image: {fileID: 2800000, guid: 39ef0bf2cefcd5745bf4c13ccace5742, type: 3}
+  - id: Mode6
+    image: {fileID: 2800000, guid: 505a60efa10a2d44e8e2d2c26f48127e, type: 3}
+  - id: Mode7
+    image: {fileID: 2800000, guid: ba0c668f59b471244930d7939a93fdaf, type: 3}
+  - id: Mode8
+    image: {fileID: 2800000, guid: 0bd84c064cfe2514aa071051477c0984, type: 3}
+  - id: Mode9
+    image: {fileID: 2800000, guid: 5a7b363cc46db5a42937ce20820c0c21, type: 3}
+  - id: Control0
+    image: {fileID: 2800000, guid: 0d435a369b50e6a40a58e5251e6597c6, type: 3}
+  - id: Control1
+    image: {fileID: 2800000, guid: 9efc2fe3cf8a7e54093eaca0c622c650, type: 3}

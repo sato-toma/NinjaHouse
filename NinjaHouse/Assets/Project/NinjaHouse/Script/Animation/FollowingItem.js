@@ -27,6 +27,11 @@ $.onReceive((messageType, arg, sender) => {
     if (messageType === "PlaySound") {
         playSound();
     }
+
+    // if (messageType === "isVR") {
+    //     $.setStateCompat("owner", "isVR", arg);
+    //     $.setStateCompat("owner", "isNotVR", !arg);
+    // }
 }, {item: true, player:true});
 
 $.onUpdate((deltaTime) => {
