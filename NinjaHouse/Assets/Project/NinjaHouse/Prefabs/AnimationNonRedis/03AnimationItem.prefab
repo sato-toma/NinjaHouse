@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 6040851871310500115}
   - component: {fileID: 21191274}
   m_Layer: 0
-  m_Name: 02AnimationItem
+  m_Name: 03AnimationItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 2072269987971663400
-  itemName: 02AnimationItem
+  itemName: 03AnimationItem
   size: {x: 1, y: 1, z: 1}
 --- !u!114 &3183732605713112344
 MonoBehaviour:
@@ -210,43 +210,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   humanoidAnimations:
   - id: Animation0
-    animation: {fileID: -203655887218126122, guid: 2cdc15c06a9800d44bd81ffb1092bd72,
+    animation: {fileID: -203655887218126122, guid: 71cd30cfadd79504b86b433f95134c2e,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation1
-    animation: {fileID: -203655887218126122, guid: f52a5456ddaaaa643ac34def39f4d7d5,
+    animation: {fileID: -203655887218126122, guid: cc63bbd97103dde4ba23f2426fab91bf,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation2
-    animation: {fileID: -203655887218126122, guid: f395ae0b31b4ca742a2f98ee546093bb,
+    animation: {fileID: -203655887218126122, guid: c679bb86d85137a4ca10781c31b2dde1,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation3
-    animation: {fileID: -203655887218126122, guid: cc9f2947c46d1fc45aca6cfe8c8d5846,
+    animation: {fileID: -203655887218126122, guid: 1cb22ff07b739d3479a9dfb6906974f7,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation4
-    animation: {fileID: -203655887218126122, guid: 676a70d6c722c10439d71214fc31df85,
+    animation: {fileID: -203655887218126122, guid: 8a4ec79c97b53034ab36f011259fbc59,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation5
-    animation: {fileID: -203655887218126122, guid: 01f60eea6e1d3e641885a64ed7741fb6,
+    animation: {fileID: -203655887218126122, guid: 4a6b4f9970508ea45bc9a7c46e7233ab,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation6
-    animation: {fileID: -203655887218126122, guid: 76dad4ab37b7cde4da15aa9831169b99,
+    animation: {fileID: -203655887218126122, guid: efa12ee420b5b844fadc4e7f32aab6b0,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation7
-    animation: {fileID: -203655887218126122, guid: 30e0957049bac9846ad4e8fedc054d6e,
+    animation: {fileID: -203655887218126122, guid: a3d5c0ffbad8d5f4792b94d2b039d2af,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation8
-    animation: {fileID: -203655887218126122, guid: 1683b394cb7fb1642a95ed8d37978163,
+    animation: {fileID: -203655887218126122, guid: 2aeb9c3a011b49d4b86950450b589903,
       type: 3}
     humanoidAnimation: {fileID: 0}
   - id: Animation9
-    animation: {fileID: -203655887218126122, guid: ea64176c65df8b04c8bf34a3eedb50df,
+    animation: {fileID: -203655887218126122, guid: b0067b5faba23ac469d38bfc27311d71,
       type: 3}
     humanoidAnimation: {fileID: 0}
 --- !u!54 &3183732605713112347

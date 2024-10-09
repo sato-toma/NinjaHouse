@@ -1,5 +1,5 @@
 // 各プレイヤーに追従するアイテムのID
-const followingItemId = new ItemTemplateId("abf306bb-bc05-4e83-875d-fd21841dfc56");
+const followingItemId = new ItemTemplateId("c2f9262d-5ba7-4a4f-821c-d6214c765159");
 
 $.onStart(() => {
     $.state.attachedPlayers = [];

@@ -1,5 +1,5 @@
 // 各プレイヤーに追従するアイテムのID
-const followingItemId = new ItemTemplateId("fccf7ba4-bccc-488e-ab46-e31c57fa347d");
+const followingItemId = new ItemTemplateId("e8d8b43c-7c24-4cdd-8bc4-ef4ea8c8f5cd");
 
 $.onInteract(player => {
     try {
