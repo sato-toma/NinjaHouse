@@ -8,16 +8,22 @@ DS Furniture Pack 01
 https://assetstore.unity.com/packages/3d/props/furniture/ds-furniture-pack-01-121404?aid=1011lGbg&pubref=am
 
 
+Horror School Props
+https://assetstore.unity.com/packages/3d/props/furniture/horror-school-props-112589
+
+Old Bathroom Objects
+https://assetstore.unity.com/packages/3d/props/interior/old-bathroom-objects-120069
+
+Realistic Fences Pack
+https://assetstore.unity.com/packages/3d/environments/realistic-fences-pack-211850
 
 パーティーメイカー
 音楽：BGMer
 http://bgmer.net
 https://bgmer.net/music/130
 
-AvatarSample_A
-https://hub.vroid.com/characters/2843975675147313744/models/5644550979324015604
-
-
+Mixamo
+https://www.mixamo.com/#/
 
 ----
 
